@@ -29,7 +29,7 @@
     cursor: pointer;
     transition: all 1s;
     height: 100%;
-    
+
 }
 #work-text{
     text-align: center;
@@ -878,4 +878,12 @@ li span:hover:after {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 
+}
+
+.modal{
+    z-index: 2000 !important;
+    position: fixed;
+}
+.modal-backdrop {
+    z-index: 1999 !important;
 }
