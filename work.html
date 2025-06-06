@@ -1,144 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <meta name="description" content="Frank Gonzalez USA React | JavaScript | Python | UI/UX | App Developer | Flutter | Web Developer | FLET" />
-
-    <title>Work | Frank Gonzalez</title>
-    <link rel="icon" type="image/png" href="assets/img/logo2.png">
-
-    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159411627-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
+
         gtag('config', 'UA-159411627-1');
     </script>
-
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-    <!-- Responsive fix for menu -->
-    <style>
-        @media (max-width: 768px) {
-            .nav-desk { display: none; }
-            .menu-wrap { display: block; }
-        }
-
-        @media (min-width: 769px) {
-            .menu-wrap { display: none; }
-        }
-
-        .work-card-hero-img {
-            width: 100%;
-            height: auto;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-    </style>
+    <meta name="Description"
+        content="Frank Gonzalez USA React | JavaScript| Python | UI/UX | App Developer | Flutter | Web Developer | FLET" />
+    <title>Work | Frank Gonzalez</title>
+    <link rel="icon" type="image/png" href="assets/img/logo2.png">
 </head>
 
-<body id="contact-body">
-    <!-- Desktop Navigation -->
-    <nav class="nav-desk">
-        <center>
-            <div class="nav-logo">
-                <a href="index.html"><img id="logo" src="assets/img/logo2.png" alt="Frank Gonzalez Logo"></a>
-            </div>
-            <div class="nav-items">
-                <ul>
-                    <li><span><a href="#" style="text-decoration: line-through;">Work</a></span></li>
-                    <li><span><a href="contact.html">Contact</a></span></li>
-                </ul>
-            </div>
-        </center>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="row fadeIn" style="animation-duration: 1.5s;">
-        <div class="col-md-12" id="left-hero">
-            <h1 class="hero-tag contact-hero fadeInLeft">My Work.</h1>
-            <p class="hero-des contact-des fadeIn delay-1s">Take a look at some of my projects I've done,
-                apps or websites that I've made.</p>
-        </div>
-    </div>
-
-    <!-- Project Grid -->
-    <div class="container animated bounceInUp delay-1s">
-        <div class="row work-double-row mb-4">
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="work-hero-card">
-                    <img class="work-card-hero-img" src="assets/img/work/bookstore_tkinter/tkinter-bookstore.png" alt="Bookstore App">
-                    <h1>Bookstore Management</h1>
-                    <div id="work-text">CTkinter Desktop App</div>
+<body id="contact-body" style="overflow-x: hidden;">
+    <div>
+        <nav class="nav-desk">
+            <center>
+                <div class="nav-logo">
+                    <a href="index.html"><img id="logo" src="assets/img/logo2.png"></a>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="work-hero-card">
-                    <img class="work-card-hero-img" src="assets/img/work/community-forum-django/community-forum-django.png" alt="Community Forum">
-                    <h1>Community Forum</h1>
-                    <div id="work-text">Django Project</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row work-double-row mb-4">
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="work-hero-card">
-                    <img class="work-card-hero-img" src="assets/img/work/astro-django-mobile-app/astro-django-kotlin-app.png" alt="Study App">
-                    <h1>Study App</h1>
-                    <div id="work-text">Kotlin App</div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="work-hero-card">
-                    <img class="work-card-hero-img" src="assets/img/work/e-commerce-charcuterie/e-commerce-charcuterie.png" alt="E-commerce Site">
-                    <h1>E-commerce Charcuterie Web Site</h1>
-                    <div id="work-text">Django Project</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer-full fadeIn delay-2s">
-        <div id="contact-social" class="social-icons" style="display: inline;">
-            <a target="_blank" href="mailto:frankgonzalezlopez24@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a target="_blank" href="https://github.com/banshe666"><i class="fab fa-github"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/frankgonzalezlopez"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="footer-credits">
-            Made by <a href="https://github.com/banshe666"><span style="color:red">Banshe666</span></a>
-        </div>
-    </div>
-
-    <!-- Mobile Hamburger Menu -->
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger">
-            <div></div>
-        </div>
-        <div class="menu">
-            <div>
-                <div>
+                <div class="nav-items">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#" style="text-decoration: line-through;">Work</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><span><a href="#" style="text-decoration: line-through;">Work</a></span></li>
+                        <li><span><a href="contact.html">Contact</a></span></li>
                     </ul>
                 </div>
+
+            </center>
+        </nav>
+        <div class=" fadeIn row" style="width:100vw;height:auto;animation-duration: 1.5s;">
+            <div class="col-md-12" id="left-hero">
+                <h1 class="hero-tag contact-hero  fadeInLeft">My Work.</h1>
+                <p class="hero-des contact-des  fadeIn delay-1s">Take a look at some of my projects I've done,
+                    apps or websites that I've made.
+                </p>
             </div>
         </div>
-    </div>
+        <!--Content-->
+        <div class="animated bounceInUp delay-1s">
+            <div class="row work-double-row">
+
+                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
+                    <div class="work-hero-card">
+                        <img class="work-card-hero-img" src="assets/img/work/bookstore_tkinter/tkinter-bookstore.png">
+                        <h1>Bookstore Management</h1>
+                        <div id="work-text">CTkinter Desktop App</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
+                    <div class="work-hero-card">
+                        <img class="work-card-hero-img" src="assets/img/work/community-forum-django/community-forum-django.png">
+                        <h1>Community Forum</h1>
+                        <div id="work-text">Django Project</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row work-double-row" id="row-3">
+                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
+
+                    <div class="work-hero-card">
+                        <img class="work-card-hero-img" src="assets/img/work/astro-django-mobile-app/astro-django-kotlin-app.png">
+                        <h1>Study App</h1>
+                        <div id="work-text">Kotlin App</div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
+                    <div class="work-hero-card">
+
+                        <img class="work-card-hero-img" src="assets/img/work/e-commerce-charcuterie/e-commerce-charcuterie.png">
+                        <h1>E-commerce Charcuterie Web Site</h1>
+                        <div id="work-text">Django Project</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+             </div>
+            <div class="footer-full  fadeIn delay-2s">
+                <div id="contact-social" class="social-icons" style="display: inline;">
+                     <a target="_blank" href="mailto:frankgonzalezlopez24@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href="https://github.com/banshe666"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/frankgonzalezlopez"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-credits">
+                     Made by <a href="https://github.com/banshe666"><span style="color:red">Banshe666</span></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="work.html" style="text-decoration: line-through">Work</a></li>
+                            <li><a disabled href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
